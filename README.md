@@ -85,7 +85,7 @@ public class TestClass {
 
 
 # Spring
-1. Se da metoda getById din Hibernate care are 'foarte multe cereri'. Cum sporezi performanta? --> cacheable, cum faci o metoda sa fie cacheable in Spring
+1. Se da metoda getById din Hibernate care are 'foarte multe cereri'. Cum sporesti performanta? --> cacheable, cum faci o metoda sa fie cacheable in Spring
 
 
 # SQL
