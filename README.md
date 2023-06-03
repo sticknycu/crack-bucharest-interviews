@@ -146,6 +146,7 @@ Sa presupunem ca adaugam o metoda m2() la implementarea de sus. Ce se intampla d
 1. Se dau doua tabele: studenti si profesori, iar un profesor preda mai multe materii. Descrie tipul de relatie si proiecteaza tabelele. Afla top 3 cei mai populari profesori dupa numarul de studenti inscrisi la cursuri.
 2. La ce se foloseste un index? Care e diferenta dintre un index btree si index bitmap? Care e problema daca folosim un index bitmap? -> probleme performanta la insert
 3. Normalizare si denormalizare.
+4. CAP Theorem
 
 # DevOps
 1. Spring Profiles -> Kubernetes ConfigMaps
