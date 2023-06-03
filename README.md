@@ -152,3 +152,6 @@ Sa presupunem ca adaugam o metoda m2() la implementarea de sus. Ce se intampla d
 2. Ce este un replica set?
 3. Ce este un deployment?
 4. Care e diferenta dintre docker si o masina virtuala? -> kernel?
+5. Cum poti afla informatii despre resurse in SO linux? -> top/htop?
+6. Cum pornesti un serviciu in linux? -> systemctl, systemd
+7. Despre cd, ls, grep.
