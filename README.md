@@ -136,6 +136,12 @@ Sa presupunem ca adaugam o metoda m2() la implementarea de sus. Ce se intampla d
 19. n+1 query problem
 20. Cum functioneaza proxy-urile in Hibernate? (la fetch type cum se populeaza)
 
+# Data Structures & Algorithms
+1. https://leetcode.com/problems/range-sum-of-bst/ -> bts range sum
+2. https://leetcode.com/problems/two-sum/ -> two sum
+3. https://leetcode.com/problems/implement-queue-using-stacks/ -> 2 stacks for queue
+4. https://leetcode.com/problems/implement-stack-using-queues/ -> 2 queues for stack
+
 # SQL
 1. Se dau doua tabele: studenti si profesori, iar un profesor preda mai multe materii. Descrie tipul de relatie si proiecteaza tabelele. Afla top 3 cei mai populari profesori dupa numarul de studenti inscrisi la cursuri.
 2. La ce se foloseste un index? Care e diferenta dintre un index btree si index bitmap? Care e problema daca folosim un index bitmap? -> probleme performanta la insert
