@@ -1,7 +1,7 @@
 # crack-bucharest-interviews
 Intrebari si probleme pe care le-am primit pana acum la interviuri. (Java Developer)
 
-# Java Vanilla / Generale
+### Java Vanilla / Generale
 
 1. Care este diferenta dintre o clasa abstracta si o interfata?
 2. O clasa abstracta se poate instantia? Dar o interfata?
@@ -136,19 +136,19 @@ Sa presupunem ca adaugam o metoda m2() la implementarea de sus. Ce se intampla d
 19. n+1 query problem
 20. Cum functioneaza proxy-urile in Hibernate? (la fetch type cum se populeaza)
 
-# Data Structures & Algorithms
+### Data Structures & Algorithms
 1. https://leetcode.com/problems/range-sum-of-bst/ -> bts range sum
 2. https://leetcode.com/problems/two-sum/ -> two sum
 3. https://leetcode.com/problems/implement-queue-using-stacks/ -> 2 stacks for queue
 4. https://leetcode.com/problems/implement-stack-using-queues/ -> 2 queues for stack
 
-# SQL
+### SQL & NoSQL
 1. Se dau doua tabele: studenti si profesori, iar un profesor preda mai multe materii. Descrie tipul de relatie si proiecteaza tabelele. Afla top 3 cei mai populari profesori dupa numarul de studenti inscrisi la cursuri.
 2. La ce se foloseste un index? Care e diferenta dintre un index btree si index bitmap? Care e problema daca folosim un index bitmap? -> probleme performanta la insert
 3. Normalizare si denormalizare.
 4. CAP Theorem
 
-# DevOps
+### DevOps
 1. Spring Profiles -> Kubernetes ConfigMaps
 2. Ce este un replica set?
 3. Ce este un deployment?
@@ -156,3 +156,6 @@ Sa presupunem ca adaugam o metoda m2() la implementarea de sus. Ce se intampla d
 5. Cum poti afla informatii despre resurse in SO linux? -> top/htop?
 6. Cum pornesti un serviciu in linux? -> systemctl, systemd
 7. Despre cd, ls, grep.
+
+### Microservices , Distributed Apps?
+1. 3 pillons of microservices -> Reliable, Scalable, and Maintainable
