@@ -163,4 +163,4 @@ Sa presupunem ca adaugam o metoda m2() la implementarea de sus. Ce se intampla d
 7. Despre cd, ls, grep.
 
 ### Microservices , Distributed Apps?
-1. 'what are the properties of a microservice?' -> Reliable, Scalable, and Maintainable. -> dupa business logyc si baza de date independenta
+1. 'what are the properties of a microservice?' -> Reliable, Scalable, and Maintainable. -> dupa business logic si baza de date independenta
