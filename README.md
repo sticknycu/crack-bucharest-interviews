@@ -58,6 +58,7 @@ Intrebari si probleme pe care le-am primit pana acum la interviuri. (Java Develo
 53. Pattern matching, variabila este 'final'.
 54. Ce modificatori de acces este implicit pentru metode in interfete? 
 55. In java cate clase putem extinde in mostenire? Dar cate putem implementa?
+56. Diferenta dintre stream.toList() si stream.collect(Collectors.toList()) -> imutabilitate / mutabilitate
 
 ##### Coding
 1. Construieste un cache de mana -> folosind HashMap. Ce se intampla daca folosim un Key de tip Object cu 2 field-uri, cu getters si setters si folosesc cheia respectiva si dupa aceea schimb un field. Se schimba hashcode-ul din hashmap? Cum se face key-ul imutabil?
@@ -83,10 +84,50 @@ public class TestClass {
 }
 ```
 
+2. Cum rezolvam daca avem 2 query-uri incapsulate si pica unul din ele si vrem sa facem rollback?
 
-# Spring
+Concret:
+```java
+@Service
+class MyService {
+
+ 
+
+    Dao1 dao1;
+    Dao2 dao2;
+
+    
+    // Here, add @Transactional.
+    public void m1() {
+
+        dao1.save();
+        dao2.save();
+    }
+}
+```
+
+Sa presupunem ca adaugam o metoda m2() la implementarea de sus. Ce se intampla daca nu adaugam @Transactional pe ea?
+
+
+# Spring / API
 1. Se da metoda getById din Hibernate care are 'foarte multe cereri'. Cum sporesti performanta? --> cacheable, cum faci o metoda sa fie cacheable in Spring
-
+2. Cum se face health check la o aplicatie spring boot?
+3. Sunt @Controller, @Service si @Repository bean-uri?
+4. Bean-ul e singleton.
+5. Cum initializam in spring test un @Bean? @MockBean si context - adnotare?
+6. Cum adaugam bean-uri fara @Bean? @Component?
+7. Diferenta dintre autentificare si autorizare.
+8. De @RequestMapping
+9. Diferenta dintre POST si PUT - idempotenta
+10. Ce relatii exista? De @JoinColumn -> la ambele cazuri
+11. Fetch type by default la @OneToMany, @ManyToMany, @OneToOne, @ManyToOne
+12. Cum se triggeruiesc niste job-uri in Spring? -> Spring Batch, @Scheduler, 
+13. Cum functioneaza Spring Batch? -> Reader, Writer, Processor, Job, JobLauncher
+14. Spring Profiles
+15. Spring MVC, Tomcat, blocant, 1 thread per request
+16. Descrie @Transactional. Spune despre izolare si despre propagare
 
 # SQL
 1. Se dau doua tabele: studenti si profesori, iar un profesor preda mai multe materii. Descrie tipul de relatie si proiecteaza tabelele. Afla top 3 cei mai populari profesori dupa numarul de studenti inscrisi la cursuri.
+2. La ce se foloseste un index? Care e diferenta dintre un index btree si index bitmap? Care e problema daca folosim un index bitmap? -> probleme performanta la insert
+3. Normalizare si denormalizare.
