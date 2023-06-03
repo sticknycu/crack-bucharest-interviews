@@ -135,6 +135,11 @@ Sa presupunem ca adaugam o metoda m2() la implementarea de sus. Ce se intampla d
 18. Comunicare microservicii -> variante posibile, descriere din proiecte (WebClient/Feign Client/JMS-uri)
 19. n+1 query problem
 20. Cum functioneaza proxy-urile in Hibernate? (la fetch type cum se populeaza)
+21. Despre tot flow-ul de la Controller la Repository. (@Entity, @Column, @Table, @Service, @Repository, @Controller/@RestController)
+22. Care e diferenta dintre @Controller si @RestController?
+23. Ce face @Autowired?
+24. De @ConfigurationProperties
+25. Cum definesti o metoda in spring ca fiind una de test?
 
 ### Data Structures & Algorithms
 1. https://leetcode.com/problems/range-sum-of-bst/ -> bts range sum
