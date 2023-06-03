@@ -1,7 +1,7 @@
 # crack-bucharest-interviews
 Intrebari si probleme pe care le-am primit pana acum la interviuri. (Java Developer)
 
-# Java Vanilla
+# Java Vanilla / Generale
 
 1. Care este diferenta dintre o clasa abstracta si o interfata?
 2. O clasa abstracta se poate instantia? Dar o interfata?
@@ -59,6 +59,11 @@ Intrebari si probleme pe care le-am primit pana acum la interviuri. (Java Develo
 54. Ce modificatori de acces este implicit pentru metode in interfete? 
 55. In java cate clase putem extinde in mostenire? Dar cate putem implementa?
 56. Diferenta dintre stream.toList() si stream.collect(Collectors.toList()) -> imutabilitate / mutabilitate
+57. Care e diferenta dintre un thread si un proces?
+58. Care e diferenta dintre programare reactiva si programare concurenta?
+59. Complexitati la Collections (la cam toate) si care e thread-safe si care nu.
+60. Despre o structura de date care are complexitatea de cautare O(log n).
+61. Despre semaphores, mutex-uri
 
 ##### Coding
 1. Construieste un cache de mana -> folosind HashMap. Ce se intampla daca folosim un Key de tip Object cu 2 field-uri, cu getters si setters si folosesc cheia respectiva si dupa aceea schimb un field. Se schimba hashcode-ul din hashmap? Cum se face key-ul imutabil?
@@ -126,8 +131,18 @@ Sa presupunem ca adaugam o metoda m2() la implementarea de sus. Ce se intampla d
 14. Spring Profiles
 15. Spring MVC, Tomcat, blocant, 1 thread per request
 16. Descrie @Transactional. Spune despre izolare si despre propagare
+17. De @Qualifier
+18. Comunicare microservicii -> variante posibile, descriere din proiecte (WebClient/Feign Client/JMS-uri)
+19. n+1 query problem
+20. Cum functioneaza proxy-urile in Hibernate? (la fetch type cum se populeaza)
 
 # SQL
 1. Se dau doua tabele: studenti si profesori, iar un profesor preda mai multe materii. Descrie tipul de relatie si proiecteaza tabelele. Afla top 3 cei mai populari profesori dupa numarul de studenti inscrisi la cursuri.
 2. La ce se foloseste un index? Care e diferenta dintre un index btree si index bitmap? Care e problema daca folosim un index bitmap? -> probleme performanta la insert
 3. Normalizare si denormalizare.
+
+# DevOps
+1. Spring Profiles -> Kubernetes ConfigMaps
+2. Ce este un replica set?
+3. Ce este un deployment?
+4. Care e diferenta dintre docker si o masina virtuala? -> kernel?
