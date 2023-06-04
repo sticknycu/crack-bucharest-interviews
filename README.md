@@ -64,6 +64,7 @@ Intrebari si probleme pe care le-am primit pana acum la interviuri. (Java Develo
 59. Complexitati la Collections (la cam toate) si care e thread-safe si care nu.
 60. Despre o structura de date care are complexitatea de cautare O(log n).
 61. Despre semaphores, mutex-uri
+62. Cum se face resize-ul la un Arraylist? - Despre load factor si capacity. by default, se face x2 cand se atinge load factor-ul.
 
 ##### Coding
 1. Construieste un cache de mana -> folosind HashMap. Ce se intampla daca folosim un Key de tip Object cu 2 field-uri, cu getters si setters si folosesc cheia respectiva si dupa aceea schimb un field. Se schimba hashcode-ul din hashmap? Cum se face key-ul imutabil?
