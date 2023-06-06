@@ -65,6 +65,10 @@ Intrebari si probleme pe care le-am primit pana acum la interviuri. (Java Develo
 60. Despre o structura de date care are complexitatea de cautare O(log n).
 61. Despre semaphores, mutex-uri
 62. Cum se face resize-ul la un Arraylist? - Despre load factor si capacity. by default, se face x2 cand se atinge load factor-ul.
+63. 'have you used other communications than REST in your projects?'
+64. 'how hashcode and equals work in a hashmap?'
+65. 'is hashmap thread-safe? tell us a thread-safe data structure for hashmap. what's the difference between Collections.synchronizedMap vs. ConcurrentHashMap?'
+66. 'what is the difference between a process, a thread and a coroutine? -> kotlin'
 
 ##### Coding
 1. Construieste un cache de mana -> folosind HashMap. Ce se intampla daca folosim un Key de tip Object cu 2 field-uri, cu getters si setters si folosesc cheia respectiva si dupa aceea schimb un field. Se schimba hashcode-ul din hashmap? Cum se face key-ul imutabil?
@@ -140,7 +144,9 @@ Sa presupunem ca adaugam o metoda m2() la implementarea de sus. Ce se intampla d
 22. Care e diferenta dintre @Controller si @RestController?
 23. Ce face @Autowired?
 24. De @ConfigurationProperties
-25. Cum definesti o metoda in spring ca fiind una de test?
+25. Cum definesti o metoda in spring ca fiind una de test?'
+26. 'what's the difference between spring boot 2 and spring boot 3, what we're the challenges?'
+27. 'what are unit tests and integration tests? how you wrote them?'
 
 ### Data Structures & Algorithms
 1. https://leetcode.com/problems/range-sum-of-bst/ -> bts range sum
@@ -153,6 +159,8 @@ Sa presupunem ca adaugam o metoda m2() la implementarea de sus. Ce se intampla d
 2. La ce se foloseste un index? Care e diferenta dintre un index btree si index bitmap? Care e problema daca folosim un index bitmap? -> probleme performanta la insert
 3. Normalizare si denormalizare.
 4. CAP Theorem
+5. 'what you mean with MongoDB is more scalable?' when you used it?
+6. 'what are the 2 letters from CAP that mongodb have?'
 
 ### DevOps
 1. Spring Profiles -> Kubernetes ConfigMaps
@@ -162,6 +170,14 @@ Sa presupunem ca adaugam o metoda m2() la implementarea de sus. Ce se intampla d
 5. Cum poti afla informatii despre resurse in SO linux? -> top/htop?
 6. Cum pornesti un serviciu in linux? -> systemctl, systemd
 7. Despre cd, ls, grep.
+8. 'tell us more about api gateway, what is an api gateway?'
+9. 'what is docker and docker-compose?'
+10. 'what is sonarqube? how have you used it?'
 
 ### Microservices , Distributed Apps?
 1. 'what are the properties of a microservice?' -> Reliable, Scalable, and Maintainable. -> dupa business logic si baza de date independenta
+2. 'what are the pitfalls of using microservices?'
+
+### Agile & SCRUM
+1. 'do you work SCRUM? how does is work for your team?'
+2. tell us how you work scrum? (about daily, retro, etc.)
