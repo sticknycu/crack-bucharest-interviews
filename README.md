@@ -69,6 +69,30 @@ Intrebari si probleme pe care le-am primit pana acum la interviuri. (Java Develo
 64. 'how hashcode and equals work in a hashmap?'
 65. 'is hashmap thread-safe? tell us a thread-safe data structure for hashmap. what's the difference between Collections.synchronizedMap vs. ConcurrentHashMap?'
 66. 'what is the difference between a process, a thread and a coroutine? -> kotlin'
+67. Se poate folosi urmatorul scenariu? Cand?:
+```java
+try {
+
+} catch (T t) {
+
+}
+```
+68. Poti seta thread pools la un parallel stream? Cum?
+69. Ce inseamna ca un obiect este serializabil? Cum faci un obiect serializabil? Vorbeste despre serialVersionUID si pentru ce se foloseste.
+70. Ce este un 'pure function'? Cum te poti folosi de o clasa imutabila pentru a realiza un pure function?
+71. Pentru ce se foloseste volatile?
+72. Pe ce putem folosi synchronized?
+73. Care e diferenta dintre Runnable si Callable?
+74. Functions de genul (denumire):
+```java
+public void f1() {
+    f2(d -> d.equals("e"));
+}
+        
+private void f2(Function<Object, Object> f) {
+    
+}
+```
 
 ##### Coding
 1. Construieste un cache de mana -> folosind HashMap. Ce se intampla daca folosim un Key de tip Object cu 2 field-uri, cu getters si setters si folosesc cheia respectiva si dupa aceea schimb un field. Se schimba hashcode-ul din hashmap? Cum se face key-ul imutabil?
@@ -147,6 +171,14 @@ Sa presupunem ca adaugam o metoda m2() la implementarea de sus. Ce se intampla d
 25. Cum definesti o metoda in spring ca fiind una de test?'
 26. 'what's the difference between spring boot 2 and spring boot 3, what we're the challenges?'
 27. 'what are unit tests and integration tests? how you wrote them?'
+28. Ce module din spring ai folosit?
+29. Inafara de singleton, ce scope-uri mai are un bean?
+30. Daca vreau sa folosesc mai multe instante inloc de una la un bean, cum pot face asta?
+31. Unde se poate folosi @Autowired?
+32. Daca ar fi sa folosesti @Autowired, ai folosi pe constructor sau pe field-uri? Care sunt cazurile cand se foloseste pe field-uri?
+33. Care este flow-ul de security? Povesteste de la inceputul request-ului pana la implementare, ceea ce se intampla in spate.
+34. De la ce vine csrf? De la ce vine cors? Cu ce ne ajuta cors?
+35. Spring promoveaza mai mult agregarea sau compozitia? Ce ai folosi mai mult? -> exemple SOLID
 
 ### Data Structures & Algorithms
 1. https://leetcode.com/problems/range-sum-of-bst/ -> bts range sum
