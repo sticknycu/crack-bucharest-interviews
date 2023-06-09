@@ -1,6 +1,7 @@
 # crack-bucharest-interviews
 Intrebari si probleme pe care le-am primit pana acum la interviuri. (Java Developer)
 
+![](https://api.visitorbadge.io/api/VisitorHit?user=nicugnm&repo=crack-bucharest-interviews&countColor=%237B1E7A)
 ### Java Vanilla / Generale
 
 1. Care este diferenta dintre o clasa abstracta si o interfata?
