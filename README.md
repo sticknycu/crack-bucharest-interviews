@@ -94,6 +94,9 @@ private void f2(Function<Object, Object> f) {
     
 }
 ```
+75. Cand o resursa poate fi folosita cu try-with-resources?
+76. Care sunt cele 3 tipuri de design patterns ?
+77. Ai folosi streams cand ai operatii CPU intensive sau I/O intensive? 
 
 ##### Coding
 1. Construieste un cache de mana -> folosind HashMap. Ce se intampla daca folosim un Key de tip Object cu 2 field-uri, cu getters si setters si folosesc cheia respectiva si dupa aceea schimb un field. Se schimba hashcode-ul din hashmap? Cum se face key-ul imutabil?
@@ -143,6 +146,28 @@ class MyService {
 
 Sa presupunem ca adaugam o metoda m2() la implementarea de sus. Ce se intampla daca nu adaugam @Transactional pe ea?
 
+3. Transforma metoda urmatoare in cod functional:
+```java
+public class FunctionalClass {
+    
+    public Integer func(Map<String, List<Integer>> map) {
+        for (var values : map.values()) {
+            for (var values2 : values) {
+                if (10 == values2) {
+                    return values2 * 10;
+                }
+            }
+        }
+        
+        throw new RuntimeException();
+        
+        return null;
+    }
+}
+```
+Hint: flatmap, filter, map.
+
+4. Problema de code review ce continea .close() fara try-with-resources. Negari prima data si conditii in cod (tratare cazuri), simplificare cerinta de code loading si exception code.
 
 # Spring / API
 1. Se da metoda getById din Hibernate care are 'foarte multe cereri'. Cum sporesti performanta? --> cacheable, cum faci o metoda sa fie cacheable in Spring
@@ -163,7 +188,7 @@ Sa presupunem ca adaugam o metoda m2() la implementarea de sus. Ce se intampla d
 16. Descrie @Transactional. Spune despre izolare si despre propagare
 17. De @Qualifier
 18. Comunicare microservicii -> variante posibile, descriere din proiecte (WebClient/Feign Client/JMS-uri)
-19. n+1 query problem
+19. n+1 query problem. Cum scapi de ea?
 20. Cum functioneaza proxy-urile in Hibernate? (la fetch type cum se populeaza)
 21. Despre tot flow-ul de la Controller la Repository. (@Entity, @Column, @Table, @Service, @Repository, @Controller/@RestController)
 22. Care e diferenta dintre @Controller si @RestController?
@@ -178,8 +203,20 @@ Sa presupunem ca adaugam o metoda m2() la implementarea de sus. Ce se intampla d
 31. Unde se poate folosi @Autowired?
 32. Daca ar fi sa folosesti @Autowired, ai folosi pe constructor sau pe field-uri? Care sunt cazurile cand se foloseste pe field-uri?
 33. Care este flow-ul de security? Povesteste de la inceputul request-ului pana la implementare, ceea ce se intampla in spate.
-34. De la ce vine csrf? De la ce vine cors? Cu ce ne ajuta cors?
+34. De la ce vine csrf? De la ce vine cors? Cu ce ne ajuta cors? Cu ce ne ajuta csrf?
 35. Spring promoveaza mai mult agregarea sau compozitia? Ce ai folosi mai mult? -> exemple SOLID
+36. Cum se configureaza Vault? Spring stocheaza datele din Vault?
+37. Ce face Spring actuator?
+38. Care este prefixul pentru JWT Token? Cum folosesti JWT Token? Care este structura JWT Token? Cum validezi un JWT Token?
+39. Folosesti OAuth2 sau Basic Auth? Cum functioneaza ambele?
+40. Cum faci partea de testare? Ai aplicat vreodata TDD principles? Care sunt beneficiile TDD?
+41. Cum stochezi un token? Le salvati in baza de date? E de ajuns sa fie validate? Ce folositi ca validator?
+42. Ce e un topic? -> JMS
+43. Ce folosesti pentru testele de integrare? Cum le faci?
+44. Cum salvezi in local storage un token?
+45. Cum folosesti cookies?
+46. Descrie SSL Handshake.
+47. Despre LDAP???
 
 ### Data Structures & Algorithms
 1. https://leetcode.com/problems/range-sum-of-bst/ -> bts range sum
@@ -194,6 +231,7 @@ Sa presupunem ca adaugam o metoda m2() la implementarea de sus. Ce se intampla d
 4. CAP Theorem
 5. 'what you mean with MongoDB is more scalable?' when you used it?
 6. 'what are the 2 letters from CAP that mongodb have?'
+7. Cand folosim indecsi? Cand se foloseste un index bitmap?
 
 ### DevOps
 1. Spring Profiles -> Kubernetes ConfigMaps
@@ -206,6 +244,14 @@ Sa presupunem ca adaugam o metoda m2() la implementarea de sus. Ce se intampla d
 8. 'tell us more about api gateway, what is an api gateway?'
 9. 'what is docker and docker-compose?'
 10. 'what is sonarqube? how have you used it?'
+11. Care e diferenta dintre http si https?
+12. Cum se pot conecta doua containere de docker intre ele?
+13. Daca vrem sa persistam datele, ce ai folosi? -> docker volumes
+14. Ai folosit vreodata nginx? Pentru ce se foloseste?
+15. Ce este prometheus? Apeleaza endpoint-urile de spring sau nu? La ce se foloseste?
+16. La ce se foloseste Vault?
+17. De la ce vine ACID?
+18. De ce ai nevoie ca un http sa fie securizat?
 
 ### Microservices , Distributed Apps?
 1. 'what are the properties of a microservice?' -> Reliable, Scalable, and Maintainable. -> dupa business logic si baza de date independenta
