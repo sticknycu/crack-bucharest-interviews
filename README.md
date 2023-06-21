@@ -97,6 +97,9 @@ private void f2(Function<Object, Object> f) {
 75. Cand o resursa poate fi folosita cu try-with-resources?
 76. Care sunt cele 3 tipuri de design patterns ?
 77. Ai folosi streams cand ai operatii CPU intensive sau I/O intensive? 
+78. 'what's the difference between strategy and state patterns?'
+79. 'what is the reason of static methods? what is an utility class? what's the difference between using an interface and a class when we build an utility class?'
+80. 'why and when to use default methods in interfaces?'
 
 ##### Coding
 1. Construieste un cache de mana -> folosind HashMap. Ce se intampla daca folosim un Key de tip Object cu 2 field-uri, cu getters si setters si folosesc cheia respectiva si dupa aceea schimb un field. Se schimba hashcode-ul din hashmap? Cum se face key-ul imutabil?
@@ -217,6 +220,7 @@ Hint: flatmap, filter, map.
 45. Cum folosesti cookies?
 46. Descrie SSL Handshake.
 47. Despre LDAP???
+48. 'difference between interceptor and filter'
 
 ### Data Structures & Algorithms
 1. https://leetcode.com/problems/range-sum-of-bst/ -> bts range sum
@@ -252,10 +256,16 @@ Hint: flatmap, filter, map.
 16. La ce se foloseste Vault?
 17. De la ce vine ACID?
 18. De ce ai nevoie ca un http sa fie securizat?
+19. 'what is DOS and DDOS?'
+20. 'tell me about Log4j vulnerability, what happened?'
+21. 'what's the difference between a docker image and docker container?'
 
 ### Microservices , Distributed Apps?
 1. 'what are the properties of a microservice?' -> Reliable, Scalable, and Maintainable. -> dupa business logic si baza de date independenta
 2. 'what are the pitfalls of using microservices?'
+3. 'tell me about quality attributes'
+4. 'what are the benefits of using microservice architecture?'
+5. 'microservice vs serverless'
 
 ### Agile & SCRUM
 1. 'do you work SCRUM? how does is work for your team?'
