@@ -221,6 +221,11 @@ Hint: flatmap, filter, map.
 46. Descrie SSL Handshake.
 47. Despre LDAP???
 48. 'difference between interceptor and filter'
+49. 'have you ever tested a static method?'
+50. 'have you ever used @Primary? when you use this annotation?'
+51. 'how is configuration done in spring boot?'
+52. 'what's the difference between spring and spring boot?'
+53. 'how do you connect to multiple databases in spring boot? have you ever used jpa without hibernate?'
 
 ### Data Structures & Algorithms
 1. https://leetcode.com/problems/range-sum-of-bst/ -> bts range sum
