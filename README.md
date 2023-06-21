@@ -100,6 +100,8 @@ private void f2(Function<Object, Object> f) {
 78. 'what's the difference between strategy and state patterns?'
 79. 'what is the reason of static methods? what is an utility class? what's the difference between using an interface and a class when we build an utility class?'
 80. 'why and when to use default methods in interfaces?'
+81. 'what's the lifecycle of maven?'
+82. 'have you used maven as parent with modules?'
 
 ##### Coding
 1. Construieste un cache de mana -> folosind HashMap. Ce se intampla daca folosim un Key de tip Object cu 2 field-uri, cu getters si setters si folosesc cheia respectiva si dupa aceea schimb un field. Se schimba hashcode-ul din hashmap? Cum se face key-ul imutabil?
@@ -221,6 +223,11 @@ Hint: flatmap, filter, map.
 46. Descrie SSL Handshake.
 47. Despre LDAP???
 48. 'difference between interceptor and filter'
+49. 'have you ever tested a static method?'
+50. 'have you ever used @Primary? when you use this annotation?'
+51. 'how is configuration done in spring boot?'
+52. 'what's the difference between spring and spring boot?'
+53. 'how do you connect to multiple databases in spring boot? have you ever used jpa without hibernate?'
 
 ### Data Structures & Algorithms
 1. https://leetcode.com/problems/range-sum-of-bst/ -> bts range sum
