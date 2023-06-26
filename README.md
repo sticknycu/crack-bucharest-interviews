@@ -103,6 +103,7 @@ private void f2(Function<Object, Object> f) {
 81. 'what's the lifecycle of maven?'
 82. 'have you used maven as parent with modules?'
 
+
 ##### Coding
 1. Construieste un cache de mana -> folosind HashMap. Ce se intampla daca folosim un Key de tip Object cu 2 field-uri, cu getters si setters si folosesc cheia respectiva si dupa aceea schimb un field. Se schimba hashcode-ul din hashmap? Cum se face key-ul imutabil?
 
@@ -228,6 +229,7 @@ Hint: flatmap, filter, map.
 51. 'how is configuration done in spring boot?'
 52. 'what's the difference between spring and spring boot?'
 53. 'how do you connect to multiple databases in spring boot? have you ever used jpa without hibernate?'
+54. care e diferenta dintre java singleton si spring singleton?
 
 ### Data Structures & Algorithms
 1. https://leetcode.com/problems/range-sum-of-bst/ -> bts range sum
@@ -243,6 +245,9 @@ Hint: flatmap, filter, map.
 5. 'what you mean with MongoDB is more scalable?' when you used it?
 6. 'what are the 2 letters from CAP that mongodb have?'
 7. Cand folosim indecsi? Cand se foloseste un index bitmap?
+8. cate tipuri de indecsi sunt? foreign key este un index?
+9. explica ce date sunt luate la un left outer join
+10. in general, care este rolul unei tranzactii?
 
 ### DevOps
 1. Spring Profiles -> Kubernetes ConfigMaps
@@ -277,3 +282,13 @@ Hint: flatmap, filter, map.
 ### Agile & SCRUM
 1. 'do you work SCRUM? how does is work for your team?'
 2. tell us how you work scrum? (about daily, retro, etc.)
+
+
+### System Design
+1. Explica cache, cand se foloseste, cum faci cache, de cache-uiesti, despre eviction policies
+2. Sa presupunem ca ai o echipa care pe moment decide sa construiasca o aplicatie care e un monolit, dar pe viitor doreste sa migreze la microservcii. cum ar arata aplicatia respectiva?
+3. care este diferenta dintre comunicare sincrona si asincrona?
+4. avand in vedere proiectul explicat, cum ai putea sa-l imbunatatesti?
+5. care sunt beneficiile folosind un sistem distribuit?
+6. despre ce este vorba la hexagonal architecture?
+7. cum poti sa faci o comunicare asicrona folosind http 1?
