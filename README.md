@@ -102,6 +102,7 @@ private void f2(Function<Object, Object> f) {
 80. 'why and when to use default methods in interfaces?'
 81. 'what's the lifecycle of maven?'
 82. 'have you used maven as parent with modules?'
+83. vorbeste despre stream-uri (orice, finite/infinite, stream-uri normale si parallel streams). modalitatea de cum functioneaza un parallel stream -> forkjoin method
 
 
 ##### Coding
@@ -230,7 +231,8 @@ Hint: flatmap, filter, map.
 52. 'what's the difference between spring and spring boot?'
 53. 'how do you connect to multiple databases in spring boot? have you ever used jpa without hibernate?'
 54. care e diferenta dintre java singleton si spring singleton?
-
+55. ce face bean scope session? exemplu real cand am putea sa-l folosim? care este lifecycle-ul?
+ 
 ### Data Structures & Algorithms
 1. https://leetcode.com/problems/range-sum-of-bst/ -> bts range sum
 2. https://leetcode.com/problems/two-sum/ -> two sum
@@ -292,3 +294,4 @@ Hint: flatmap, filter, map.
 5. care sunt beneficiile folosind un sistem distribuit?
 6. despre ce este vorba la hexagonal architecture?
 7. cum poti sa faci o comunicare asicrona folosind http 1?
+8. sa presupunem ca ai vrea sa construiesti un API REST care creeaza masini virtuale si sa presupunem ca sistemul funtioneaza in felul urmator: in cazul in care vrei sa creezi o masina virtuala, acest proces dureaza in jur de 20-25 minute. In cazul in care faci o cerere, aceasta sa fie inregistrata si sa presupunem ca ai un numar limita de 50 de masini virtuale spre exemplu care pot fi create simultan. Cum ai face design-ul (request body + response body) la un astfel de sistem? -> de aici porneau mai multe intrebari in legatura cu status code, design, reguli si proprietati REST (fara sa implica Spring) si o intrebare despre cum am face un endpoint care sa returneze doua response body-uri diferite fara a schimba numele endpoint-ului.
