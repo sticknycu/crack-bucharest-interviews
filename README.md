@@ -94,7 +94,7 @@ private void f2(Function<Object, Object> f) {
     
 }
 ```
-75. Cand o resursa poate fi folosita cu try-with-resources?
+75. Cand o resursa poate fi folosita cu try-with-resources? ce trebuie sa implementeze?
 76. Care sunt cele 3 tipuri de design patterns ?
 77. Ai folosi streams cand ai operatii CPU intensive sau I/O intensive? 
 78. 'what's the difference between strategy and state patterns?'
@@ -103,9 +103,9 @@ private void f2(Function<Object, Object> f) {
 81. 'what's the lifecycle of maven?'
 82. 'have you used maven as parent with modules?'
 83. vorbeste despre stream-uri (orice, finite/infinite, stream-uri normale si parallel streams). modalitatea de cum functioneaza un parallel stream -> forkjoin method
+84. vorbeste despre lock, cand se foloseste, un exemplu cand poti sa obtii deadlock si cum ai rezolva daca ai avea un deadlock in productie? -> thread dumps
 
-
-##### Coding
+##### Coding / Clean Code
 1. Construieste un cache de mana -> folosind HashMap. Ce se intampla daca folosim un Key de tip Object cu 2 field-uri, cu getters si setters si folosesc cheia respectiva si dupa aceea schimb un field. Se schimba hashcode-ul din hashmap? Cum se face key-ul imutabil?
 
 Concret:
@@ -175,6 +175,8 @@ public class FunctionalClass {
 Hint: flatmap, filter, map.
 
 4. Problema de code review ce continea .close() fara try-with-resources. Negari prima data si conditii in cod (tratare cazuri), simplificare cerinta de code loading si exception code.
+5. Explica care este problema daca am pasa intr-o metoda 9 argumente si cum poti rezolva asta? De ce este o problema de clean code sa pasam intr-o metoda 3 parametrii booleni, de exemplu: 'true, true, false'. Cum poti rezolva asta? -> clean code/uncle bob, enums
+
 
 # Spring / API
 1. Se da metoda getById din Hibernate care are 'foarte multe cereri'. Cum sporesti performanta? --> cacheable, cum faci o metoda sa fie cacheable in Spring
