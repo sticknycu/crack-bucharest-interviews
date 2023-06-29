@@ -234,6 +234,9 @@ Hint: flatmap, filter, map.
 53. 'how do you connect to multiple databases in spring boot? have you ever used jpa without hibernate?'
 54. care e diferenta dintre java singleton si spring singleton?
 55. ce face bean scope session? exemplu real cand am putea sa-l folosim? care este lifecycle-ul?
+56. cum faceati handle la spring security la operatia de delete daca foloseati OAuth2?
+57. cum functioneaza mai exact spring proxies? -> vorbeste despre cum functioneaza proxy-urile daca ai un service care implementeaza o interfata si cand nu. (in spate)
+58. sa presupunem ca ai doua tranzactii, in aceeasi clasa, una cu @Transactional si una cu @Transactional, dar cu propagarea requires_new. cate tranzactii sunt facute? dar cand folosesti metodele in clase diferite, cate sunt?
  
 ### Data Structures & Algorithms
 1. https://leetcode.com/problems/range-sum-of-bst/ -> bts range sum
@@ -252,6 +255,7 @@ Hint: flatmap, filter, map.
 8. cate tipuri de indecsi sunt? foreign key este un index?
 9. explica ce date sunt luate la un left outer join
 10. in general, care este rolul unei tranzactii?
+11. cate tipuri de view-uri exista? ai auzit despre view-uri materializate?
 
 ### DevOps
 1. Spring Profiles -> Kubernetes ConfigMaps
