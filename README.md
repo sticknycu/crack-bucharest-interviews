@@ -256,7 +256,7 @@ Hint: flatmap, filter, map.
 9. explica ce date sunt luate la un left outer join
 10. in general, care este rolul unei tranzactii?
 11. cate tipuri de view-uri exista? ai auzit despre view-uri materializate?
-12. Ai auzit de database pages? Poti descrie ce fac/ce sunt?
+12. Ai auzit de database pages? Poti descrie ce fac/ce sunt? Ref: https://medium.com/@hnasr/following-a-database-read-to-the-metal-a187541333c2 
 
 ### DevOps
 1. Spring Profiles -> Kubernetes ConfigMaps
