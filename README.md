@@ -175,7 +175,8 @@ public class FunctionalClass {
 Hint: flatmap, filter, map.
 
 4. Problema de code review ce continea .close() fara try-with-resources. Negari prima data si conditii in cod (tratare cazuri), simplificare cerinta de code loading si exception code.
-5. Explica care este problema daca am pasa intr-o metoda 9 argumente si cum poti rezolva asta? De ce este o problema de clean code sa pasam intr-o metoda 3 parametrii booleni, de exemplu: 'true, true, false'. Cum poti rezolva asta? -> clean code/uncle bob, enums
+5. Explica care este problema daca am pasa intr-o metoda 9 argumente si cum poti rezolva asta? De ce este o problema de clean code sa pasam intr-o metoda 3 parametrii booleni, de exemplu: 'true, true, false'. Cum poti rezolva asta? -> clean code/uncle bob, enums.
+6. Probleme cu sliding window / arrays / 2 pointers approach
 
 
 # Spring / API
