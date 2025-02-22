@@ -49,7 +49,7 @@ Intrebari si probleme pe care le-am primit pana acum la interviuri. (Java Develo
 43. Descrie agregarea si compozitia
 44. Cate clase publice putem avea intr-un fisier .java?
 45. Care este lifecycle ul unui thread in Java? ref: https://www.baeldung.com/java-thread-lifecycle
-46. In general de stream-uri, operatii intermediare si finale, exemple.
+46. In general de stream-uri, operatii intermediare si finale, exemple. (+Laziness stream fara operatie finala).
 47. Ce este un pachet in Java? Ce este un modul in Java?
 48. Despre Consumer, Supplier, Function si Predicate. Cum putem face o lambda function in Java?
 49. Avem nevoie neaparat de adnotarea de FunctionInterface pentru a face o interfata sa fie functionala?
@@ -207,7 +207,7 @@ Hint: flatmap, filter, map.
 26. 'what's the difference between spring boot 2 and spring boot 3, what we're the challenges?'
 27. 'what are unit tests and integration tests? how you wrote them?'
 28. Ce module din spring ai folosit?
-29. Inafara de singleton, ce scope-uri mai are un bean?
+29. Inafara de singleton, ce scope-uri mai are un bean? ( toate ) + exemple (interceptors etc.)
 30. Daca vreau sa folosesc mai multe instante inloc de una la un bean, cum pot face asta?
 31. Unde se poate folosi @Autowired?
 32. Daca ar fi sa folosesti @Autowired, ai folosi pe constructor sau pe field-uri? Care sunt cazurile cand se foloseste pe field-uri?
@@ -237,6 +237,7 @@ Hint: flatmap, filter, map.
 56. cum faceati handle la spring security la operatia de delete daca foloseati OAuth2?
 57. cum functioneaza mai exact spring proxies? -> vorbeste despre cum functioneaza proxy-urile daca ai un service care implementeaza o interfata si cand nu. (in spate)
 58. sa presupunem ca ai doua tranzactii, in aceeasi clasa, una cu @Transactional si una cu @Transactional, dar cu propagarea requires_new. cate tranzactii sunt facute? dar cand folosesti metodele in clase diferite, cate sunt?
+59. Cum ajunge un request din web pana in Controller? (Servlet Dispatcher - Spring)
  
 ### Data Structures & Algorithms
 1. https://leetcode.com/problems/range-sum-of-bst/ -> bts range sum
@@ -302,3 +303,8 @@ Hint: flatmap, filter, map.
 6. despre ce este vorba la hexagonal architecture?
 7. cum poti sa faci o comunicare asicrona folosind http 1?
 8. sa presupunem ca ai vrea sa construiesti un API REST care creeaza masini virtuale si sa presupunem ca sistemul funtioneaza in felul urmator: in cazul in care vrei sa creezi o masina virtuala, acest proces dureaza in jur de 20-25 minute. In cazul in care faci o cerere, aceasta sa fie inregistrata si sa presupunem ca ai un numar limita de 50 de masini virtuale spre exemplu care pot fi create simultan. Cum ai face design-ul (request body + response body) la un astfel de sistem? -> de aici porneau mai multe intrebari in legatura cu status code, design, reguli si proprietati REST (fara sa implica Spring) si o intrebare despre cum am face un endpoint care sa returneze doua response body-uri diferite fara a schimba numele endpoint-ului.
+9. Despre HATEOAS + Richardson Maturity Model (ref: https://martinfowler.com/articles/richardsonMaturityModel.html)
+10. Despre circuit breaker + retry/fault tolerant methods.
+11. Define what is happening when you type google.com . (with networking , OSI model, until you get the answer).
+12. Tell me about TSL/SSL, certificates. What type of security attacks do you know ? (and questions about csrf, jwt token encoding, security servers, cors, xsf, xss).
+13. 'How Google Chrome / browsers handle caches? You do the request, right? And then you have http 1.1 which have a caching mechanism. tell me about it'
